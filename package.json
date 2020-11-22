@@ -1,22 +1,18 @@
 {
-  "name": "node-rtsp-stream",
-  "version": "0.0.8",
+  "name": "node-rtsp-stream-ts",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "prepublish": "npm run test",
-    "test": "mocha test/*.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kyriesent/node-rtsp-stream.git"
-  },
-  "author": "David Jsa <david@jsa.me>",
+  "main": "",
+  "scripts": {},
+  "author": "Deepanshu Kushwaha",
   "license": "MIT",
-  "devDependencies": {
-    "mocha": "^5.2.0"
-  },
   "dependencies": {
-    "ws": "^7.0.0"
+    "ws": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.4.0",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
   }
 }
